@@ -14,6 +14,11 @@ api.put('/users', function (request, response) {
   response.json('User was saved succesfully');
 });
 
+api.put('/users/:index', function (request, response) {
+  users[request.params.index] = request.body;
+  response.json('User was modified succesfully');
+});
+
 api.delete('/users/:index', function (request, response) {
   users.splice(request.params.index, 1);
   response.json('User with index ' + request.params.index + ' was deleted');

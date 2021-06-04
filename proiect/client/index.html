@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
+  <meta content="utf-8" http-equiv="encoding" />
+  <title>Magazin Manga</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles/style.css" />
+  <link rel="stylesheet" href="styles/vue-material.css" />
+  <script type="text/javascript" src="libs/vue.js"></script>
+  <script type="text/javascript" src="libs/vue-material.js"></script>
+  <script type="text/javascript" src="libs/axios.js"></script>
+  <script type="text/javascript" src="src/manga-service.js"></script>
+</head>
+
+<body>
+  <div id="app">
+
+    <div class="title">Manga</div>
+
+    <p style="text-align: center" v-if="mangas.length == 0">No mangas found</p>
+
+    <ul class="user-list" v-if="mangas.length > 0">
+      <li>
+        <div class="user-row-header">
+          <div class="user-name">Titlu</div>
+          <div class="user-city">Pret</div>
+          <div class="user-city">Nr Volum</div>
+          <div class="user-city">Autor</div>
+          <div class="user-city">ISBN</div>
+          <div class="user-city">Options</div>
+          <a class="" :href="'add.html?'">Add </a>
+        </div>
+      </li>
+
+      <li v-for="manga in mangas">
+        <div class="">
+          <a class="user-city" :href="'details.html?id='+manga.id">{{ manga.titlu }}</a>
+          <span class="user-city"><i>{{ manga.pret }}</i></span>
+          <span class="user-city"><i>{{ manga.nr_volum}}</i></span>
+          <span class="user-city"><i>{{ manga.autor }}</i></span>
+          <span class="user-city"><i>{{ manga.isbn }}</i></span>
+          <button v-on:click="deleteManga(manga.id)">Delete</button>
+          <a :href="'update.html?id='+manga.id" target="_self">Update</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <script src="src/app.js"></script>
+</body>
+
+</html>

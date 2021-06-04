@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "titlu" : "Goblin slayer",
+    "nr_volum" : "1",
+    "autor" : "Kumo Kagyu",
+    "isbn" : "978-0-316-50159-0",
+    "nr_pagini" : "222",
+    "gen" : "Fantasy",
+    "editura" : "Art",
+    "pret" : "40"
+  },
+  {
+    "id": 2,
+    "titlu" : "D.Gray-Man",
+    "nr_volum" : "1",
+    "autor" : "Katsura Hoshino",
+    "isbn" : "978-1-4215-0624-1",
+    "nr_pagini" : "222",
+    "gen" : "Fantasy",
+    "editura" : "Viz-Media",
+    "pret" : "30"
+  },
+  {
+    "id": 3,
+    "titlu" : "D.Gray-Man",
+    "nr_volum" : "2",
+    "autor" : "Katsura Hoshino",
+    "isbn" : "978-1-4215-0624-1",
+    "nr_pagini" : "222",
+    "gen" : "Fantasy",
+    "editura" : "Viz-Media",
+    "pret" : "30"
+  },
+  {
+    "id": 4,
+    "titlu" : "Black Clover",
+    "nr_volum" : "1",
+    "autor" : "Yuki Tabata",
+    "isbn" : "978-1-4215-8718-9",
+    "nr_pagini" : "222",
+    "gen" : "Actiune",
+    "editura" : "Viz-Media",
+    "pret" : "40"
+  },
+  {
+    "id": 5,
+    "titlu" : "One Punch Man",
+    "nr_volum" : "1",
+    "autor" : "Yusuke Murata",
+    "isbn" : "978-1-9747-1764-4",
+    "nr_pagini" : "220",
+    "gen" : "Actiune",
+    "editura" : "Viz-Media",
+    "pret" : "40"
+  },
+  {
+    "id": 7,
+    "titlu" : "Dr. Stone",
+    "nr_volum" : "1",
+    "autor" : "Riichiro Inagaki",
+    "isbn" : "978-1-9747-1764-4",
+    "nr_pagini" : "192",
+    "gen" : "Actiune",
+    "editura" : "Viz-Media",
+    "pret" : "40"
+  },
+  {
+    "id": 8,
+    "titlu" : "Promised Neverland",
+    "nr_volum" : "1",
+    "autor" : "Kaiu Shirai",
+    "isbn" : "978-1-9747-0889-5",
+    "nr_pagini" : "192",
+    "gen" : "Horror",
+    "editura" : "Viz-Media",
+    "pret" : "40"
+  },
+  {
+    "id": 9,
+    "titlu" : "Jojo's Bizarre Adventure",
+    "nr_volum" : "1",
+    "autor" : "Hirohiko Araki",
+    "isbn" : "978-1-9747-0815-4",
+    "nr_pagini" : "192",
+    "gen" : "Comedie",
+    "editura" : "Viz-Media",
+    "pret" : "40"
+  },
+  {
+    "id": 10,
+    "titlu" : "Jujutsu Kaisen",
+    "nr_volum" : "1",
+    "autor" : "Gege Akutami",
+    "isbn" : "978-1-9747-2075-0",
+    "nr_pagini" : "192",
+    "gen" : "Actiune",
+    "editura" : "Viz-Media",
+    "pret" : "40"
+  },
+  {
+    "id": 11,
+    "titlu" : "Full Metal Alchemist",
+    "nr_volum" : "1",
+    "autor" : "Hiromu Arakawa",
+    "isbn" : "978-1-4215-9996-0",
+    "nr_pagini" : "192",
+    "gen" : "Aventura",
+    "editura" : "Viz-Media",
+    "pret" : "40"
+  }
+]

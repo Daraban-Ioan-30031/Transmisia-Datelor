@@ -1,14 +1,16 @@
 [
   {
       "id": 1,
-      "name": "Dacia 1310",
-      "power": "70",
-      "color": "red",
-      "motorizare": "benzina",
-      "capacitateCilindrica": "1200",
-      "descriere": "test",
-      "year": 2020,
-      "price": "5000 EUR"
+      "Type":"Graphics Card",
+      "name": "Palit GeForce RTX 3070",
+      "Series": "GeForce RTX 3000",
+      "Graphic processor": "Ampere GA104",
+      "Gpu clock": "1500MHz",
+      "Gpu boost clock": "1725MHz",
+      "Memory Type": "GDDR6",
+      "Memory Capacity":"8 GB",
+      "Memory BUS": "256 bit",
+      "price": "8600 RON"
   },
   {
       "id": 2,
@@ -31,5 +33,18 @@
       "descriere": "test",
       "year": 2020,
       "price": "5000 EUR"
-  }
+  },
+    {
+        "id": 4,
+        "name": "AMD Ryzen 5 5600X",
+        "Type":"Processor",
+        "Series": "Ryzen 5 5000 Series",
+        "Core": "Vermeer",
+        "Number of cores": "6",
+        "Number of threads": "12",
+        "Frequency": "3.7 GHz",
+        "Turbo Frequency":"4.6 GHz",
+        "Power consumption": "65 W",
+        "price": "1440 RON"
+    }
 ]

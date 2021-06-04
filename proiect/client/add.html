@@ -1,0 +1,21 @@
+<html>
+<head>
+    <script type="text/javascript" src="libs/vue.js"></script><script type="text/javascript" src="libs/axios.js"></script>
+</head>
+<body>
+<a href="index.html">Home</a>
+<div id="add">
+    Titlu: <input type="text" v-model="manga.titlu">
+    Pret: <input type="text" v-model="manga.pret">
+    Autor: <input type="text" v-model="manga.autor">
+    Nr volum: <input type="text" v-model="manga.nr_volum">
+    Gen: <input type="text" v-model="manga.gen">
+    Editura: <input type="text" v-model="manga.editura">
+    ISBN: <input type="text" v-model="manga.isbn">
+
+    <button v-on:click="add(manga)">Save</button>
+    <p>{{message}}</p>
+</div>
+<script src="src/add.js"></script>
+</body>
+</html>
